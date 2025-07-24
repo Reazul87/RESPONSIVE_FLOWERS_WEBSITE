@@ -219,7 +219,6 @@ ol li span {
 .Latest-Deals {
     max-width: 1440px;
     margin: 0px 150px 120px 150px;
-    border: 2px rgb(92, 92, 206) solid;
 }
 
 .deals-title {
@@ -247,7 +246,6 @@ ol li span {
 .Latest-Deals-images {
     max-width: 1440px;
     margin: 0px 150px 120px 150px;
-    border: 2px rgb(92, 92, 206) solid;
     display: flex;
     height: 423px;
     gap: 28px;
@@ -319,6 +317,17 @@ ol li span {
     font-weight: var(--semibold);
     font-family: var(--inter);
     color: var(--white);
+    text-decoration: underline;
+}
+.deals-img-right button{
+    width: 270px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-weight: var(--semibold);
+    font-family: var(--inter);
+    color: var(--white);
+    font-size: var(--twenty8);
     text-decoration: underline;
 }
 
