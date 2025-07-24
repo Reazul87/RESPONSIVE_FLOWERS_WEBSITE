@@ -319,7 +319,8 @@ ol li span {
     color: var(--white);
     text-decoration: underline;
 }
-.deals-img-right button{
+
+.deals-img-right button {
     width: 270px;
     height: 50px;
     background-color: transparent;
@@ -438,9 +439,9 @@ ol li span {
     position: absolute;
     top: 32%;
     left: 32%;
-    /* animation: spin 3s linear infinite; */
+    animation: spin 3s linear infinite;
 }
-/*
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -451,4 +452,4 @@ ol li span {
     }
 }
 
-/*** batch Section Style done **
+/*** batch Section Style done ***/
