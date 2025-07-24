@@ -414,15 +414,14 @@ ol li span {
     width: 36px;
 }
 
-/*** All Section Style Done ***/
+/*** All Section Style Done ***
 
 
-/*** batch Section Style ***/
+*** batch Section Style ***/
 
 .batch {
     margin: 0px;
     padding: 0px;
-    border: 1px solid gold;
     height: 210px;
     position: relative;
 }
@@ -433,9 +432,9 @@ ol li span {
     position: absolute;
     top: 32%;
     left: 32%;
-    animation: spin 3s linear infinite;
+    /* animation: spin 3s linear infinite; */
 }
-
+/*
 @keyframes spin {
     0% {
         transform: rotate(0deg);
