@@ -409,12 +409,9 @@ ol li span {
 }
 
 .social-icon {
-    border: 2px rgb(168, 168, 255) solid;
-    /* width: 216px;height: 36px; */
     flex: 0.9;
     display: flex;
     justify-content: end;
-    /* align-items: center; */
     gap: 24px;
 }
 
