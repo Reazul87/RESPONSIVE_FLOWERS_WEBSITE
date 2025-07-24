@@ -109,10 +109,9 @@ ol li span {
     width: 100%;
 }
 
-** Our-plants Style ***/
+/** Our-plants Style ***/
 
 .our-plants {
-    border: 2px rgb(92, 92, 206) solid;
     max-width: 1440px;
     margin: 120px 150px 0px 150px;
 
@@ -183,7 +182,6 @@ ol li span {
 .Plants-Lover {
     max-width: 1440px;
     display: flex;
-    border: 2px rgb(92, 92, 206) solid;
     margin: 0px 150px 133px 150px;
 }
 
@@ -327,7 +325,6 @@ ol li span {
 /*** Join Section Style ***/
 
 .Join-colorful-Bunch {
-    border: 2px rgb(92, 92, 206) solid;
     max-width: 1440px;
     margin: 0 auto;
     height: 533px;
@@ -368,7 +365,6 @@ ol li span {
 /*** Footer Section Style ***/
 
 .footer-section {
-    border: 2px rgb(92, 92, 206) solid;
     max-width: 1440px;
     margin: 50px 160px 50px 160px;
 }
@@ -385,11 +381,9 @@ ol li span {
     flex-wrap: wrap;
     flex: 1;
     gap: 32px;
-    border: 2px solid darkblue;
 }
 
 #left-description {
-    border: 2px solid rgb(0, 111, 139);
     font-family: var(--inter);
     font-size: var(--twenty2);
     color: var(--blk-opacity);
