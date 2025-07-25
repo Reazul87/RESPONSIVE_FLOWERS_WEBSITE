@@ -1,3 +1,8 @@
+
+- 📂 **GitHub Repository:** https://github.com/Reazul87/RESPONSIVE_FLOWERS_WEBSITE
+- 🌐 **Live Link:** https://reazul87.github.io/RESPONSIVE_FLOWERS_WEBSITE/
+
+
 ## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-002 😎
 
 ### 📅 Deadline For 60 marks: 25th July, 2025 (11:59 pm ⏱️)
