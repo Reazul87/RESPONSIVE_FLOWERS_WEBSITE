@@ -41,11 +41,6 @@ img {
 
 }
 
-.logo img {
-    width: 135px;
-    height: 82px;
-}
-
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -94,7 +89,7 @@ ol li span {
 }
 
 .hero-content {
-    padding-top: 162px;
+    padding-top: 144px;
     width: 600px;
 }
 
@@ -414,11 +409,6 @@ ol li span {
 
 .left-logo {
     flex: 1;
-}
-
-#left-logo img {
-    width: 135px;
-    height: 82px;
 }
 
 .middle-menubar a {
