@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -32,9 +37,13 @@ img {
 /*** Navbar Style ***/
 
 .navbar-section {
-    max-width: 1440px;
     margin: 30px 150px 120px;
 
+}
+
+.logo img {
+    width: 135px;
+    height: 82px;
 }
 
 .navbar-container {
@@ -79,7 +88,6 @@ ol li span {
 }
 
 .hero-section {
-    max-width: 1440px;
     height: 460px;
     margin: 0px 150px;
     font-family: var(--inter);
@@ -112,7 +120,6 @@ ol li span {
 /** Our-plants Style ***/
 
 .our-plants {
-    max-width: 1440px;
     margin: 120px 150px 0px 150px;
 
 }
@@ -140,6 +147,9 @@ ol li span {
     text-align: center;
 }
 
+.flower-card {
+    margin-bottom: 30px;
+}
 
 .flowers-cards {
     display: grid;
@@ -170,6 +180,7 @@ ol li span {
 
 .flower-name {
     font-weight: var(--medium);
+    margin-bottom: 20px;
 }
 
 .flower-value {
@@ -180,7 +191,6 @@ ol li span {
 /*** Flower & Plants Lover Style ***/
 
 .Plants-Lover {
-    max-width: 1440px;
     display: flex;
     margin: 0px 150px 133px 150px;
 }
@@ -217,7 +227,6 @@ ol li span {
 /*** Latest  Deals Style ***/
 
 .Latest-Deals {
-    max-width: 1440px;
     margin: 0px 150px 120px 150px;
 }
 
@@ -244,7 +253,6 @@ ol li span {
 }
 
 .Latest-Deals-images {
-    max-width: 1440px;
     margin: 0px 150px 120px 150px;
     display: flex;
     height: 423px;
@@ -335,7 +343,6 @@ ol li span {
 /*** Join Section Style ***/
 
 .Join-colorful-Bunch {
-    max-width: 1440px;
     margin: 0 auto;
     height: 533px;
     text-align: center;
@@ -375,8 +382,7 @@ ol li span {
 /*** Footer Section Style ***/
 
 .footer-section {
-    max-width: 1440px;
-    margin: 50px 160px 50px 160px;
+    padding: 50px 160px 50px 160px;
 }
 
 .footer-container {
@@ -386,11 +392,17 @@ ol li span {
 
 .middle-menubar {
     display: flex;
-    flex-direction: column;
-    width: 200px;
-    flex-wrap: wrap;
     flex: 1;
-    gap: 32px;
+}
+
+.middle-menubar-1 a {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.middle-menubar-2 a {
+    display: flex;
+    margin-bottom: 32px;
 }
 
 #left-description {
@@ -404,9 +416,15 @@ ol li span {
     flex: 1;
 }
 
+#left-logo img {
+    width: 135px;
+    height: 82px;
+}
+
 .middle-menubar a {
     color: var(--gray);
     text-decoration: none;
+    padding-left: 80px;
 }
 
 .social-icon {
@@ -429,7 +447,7 @@ ol li span {
 .batch {
     margin: 0px;
     padding: 0px;
-    height: 210px;
+    height: 190px;
     position: relative;
 }
 
@@ -453,3 +471,330 @@ ol li span {
 }
 
 /*** batch Section Style done ***/
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    /* Styles for mobile */
+    html {
+        font-size: 16px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .body {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /*** Navbar Style ***/
+
+    .navbar-section {
+        margin: 13px 16px 28px;
+    }
+
+    .menu-bar li:nth-child(1) a,
+    .menu-bar li:nth-child(2) a,
+    .menu-bar li:nth-child(3) a {
+        display: none;
+    }
+
+    .logo img {
+        width: 63px;
+        height: 38px;
+    }
+
+    .menu-bar li:nth-child(4) span {
+        padding-left: 6px;
+    }
+
+    /*** Hero Style ***/
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-section {
+        /* height: 460px; */
+        margin: 0px 0px;
+        height: auto;
+    }
+
+    .hero-content {
+        padding-top: 14px;
+        /* width: 600px; */
+        margin: 28px 16px 65px;
+        width: auto;
+    }
+
+    .hero-description {
+        /* font-size: var(--twenty2); */
+        font-size: 14px;
+        padding-right: 85px;
+    }
+
+    .hero-title {
+        /* font-size: var(--sixty5); */
+        font-size: 24px;
+        padding-bottom: 13px;
+    }
+
+    .hero-img img {
+        /* box-sizing: content-box; */
+        padding: 0px;
+        width: 100%;
+    }
+
+    /** Our-plants Style ***/
+
+    .our-plants {
+        margin: 0px 17px 28px 14px;
+    }
+
+    .plants-title {
+        font-size: 24px;
+    }
+
+    .plants-description {
+        padding-top: 16px;
+        font-size: 14px;
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+
+    .about-plants {
+        margin-bottom: 28px;
+        text-align: center;
+    }
+
+
+    .flowers-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .flower-picture {
+        margin-bottom: 30px;
+    }
+
+    .flower-details {
+        font-size: 16px;
+    }
+
+    .flower-details button {
+        font-size: 16px;
+    }
+
+    .flower-value {
+        font-size: 16px;
+        padding-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    /*** Flower & Plants Lover Style ***/
+
+    .Plants-Lover {
+        display: flex;
+        flex-direction: column;
+        margin: 41.5px 15px 143px 17.5px;
+    }
+
+    .store-title {
+        font-size: 24px;
+        padding-top: 18px;
+    }
+
+    .store-description {
+        font-size: 14px;
+        padding-left: 24px;
+    }
+
+    .store-description li {
+        margin-top: 16px;
+        padding-right: 80px;
+    }
+
+    /*** Latest  Deals Style ***/
+
+    .Latest-Deals {
+        margin: 0px 15px 51.5px 17px;
+    }
+
+    .deals-title {
+        font-size: 24px;
+    }
+
+    .deals-description {
+        font-size: 14px;
+        padding-top: 16px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .Latest-Deals-images {
+        margin: 0px 16px 40px 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        width: auto;
+    }
+
+    .deals-img-left {
+        flex: 1;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .deals-img-left-1 {
+        height: 184.5px;
+        width: 100%;
+        border-radius: 14px;
+    }
+
+    .deals-img-left-2 {
+        width: 100%;
+        height: 184.5px;
+        border-radius: 0px;
+    }
+
+    .deals-img-right {
+        flex: 1;
+        height: 172px;
+        width: 100%;
+        padding: 83px 0px;
+        border-radius: 14px;
+    }
+
+    #right-title {
+        font-size: 20px;
+    }
+
+    #left-title {
+        font-size: 20px;
+    }
+
+    .deals-img-left button {
+        width: 270px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .deals-img-right button {
+        width: 270px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    /*** Join Section Style ***/
+
+    .Join-colorful-Bunch {
+        height: 276px;
+        padding: 110.5px 36px 64.5px 36px;
+    }
+
+    .Join-colorful-Bunch h1 {
+        font-size: 20px;
+        margin-bottom: 23px;
+    }
+
+    .Join-colorful-Bunch button {
+        font-size: 16px;
+        padding: 19px 12px;
+    }
+
+    .email-subscribe input {
+        font-size: 16px;
+        padding: 15.5px 60px 15.5px 20px;
+    }
+
+    /*** Footer Section Style ***/
+
+    .footer-section {
+        padding: 50px 14px 50px 20px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .middle-menubar {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex: 1;
+    }
+
+    .middle-menubar-1 a {
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middle-menubar-2 {
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #left-description {
+        margin-top: 16px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding-right: 140px;
+    }
+
+    .left-logo {
+        flex: 1;
+    }
+
+    #left-logo img {
+        height: 109px;
+        width: 180px;
+    }
+
+    .middle-menubar a {
+        padding-left: 0px;
+    }
+
+    .social-icon {
+        flex: 1;
+        display: flex;
+        justify-content: start;
+        gap: 24px;
+    }
+
+    .social-icon img {
+        height: 36px;
+        width: 36px;
+    }
+
+    /*** All Section Style Done ***
+
+
+*** batch Section Style ***/
+
+    .batch {
+        display: none;
+    }
+
+    /*** batch Section Style done ***/
+}
